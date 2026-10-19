@@ -1,0 +1,268 @@
+{
+ "scenario": "long-session",
+ "arm": "with",
+ "rep": 2,
+ "model": "haiku",
+ "dir": "/private/var/folders/l0/wd9q93rn1mxgkmls2h2f9l080000gn/T/cutctx-long-session-with-2-8jry6zi0",
+ "finished": "2026-10-19T07:57:30",
+ "steps": [
+  {
+   "prompt": "Add a function slugify(text) to utils.py: lowercase it, replace each run of char",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 12,
+    "cache_creation_input_tokens": 5759,
+    "cache_read_input_tokens": 82131,
+    "output_tokens": 1465,
+    "output_tokens_details": {
+     "thinking_tokens": 250
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5759,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 346,
+      "cache_read_input_tokens": 15206,
+      "cache_creation_input_tokens": 350,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 350
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00270681,
+   "turns": 6,
+   "seconds": 12.5,
+   "session_id": "ec4f7c78-39af-40af-964b-5335ede6b1f3"
+  },
+  {
+   "prompt": "What value does restock_threshold() in inventory.py return? Reply with just the ",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 1973,
+    "cache_read_input_tokens": 26297,
+    "output_tokens": 203,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 1973,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 13934,
+      "cache_creation_input_tokens": 402,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 402
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.0007594699999999999,
+   "turns": 2,
+   "seconds": 3.7,
+   "session_id": "56f8d9ed-0233-4a71-a5be-637d070c27f7"
+  },
+  {
+   "prompt": "Run `python3 -m unittest discover -v` and fix the failing test by fixing the cod",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 7718,
+    "cache_read_input_tokens": 134503,
+    "output_tokens": 2498,
+    "output_tokens_details": {
+     "thinking_tokens": 509
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 7718,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 214,
+      "cache_read_input_tokens": 19543,
+      "cache_creation_input_tokens": 538,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 538
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.004139230000000001,
+   "turns": 10,
+   "seconds": 20.2,
+   "session_id": "ab9021fb-a8fc-4e2d-b1c9-9556fda32ffe"
+  },
+  {
+   "prompt": "Add a '## Setup' section to README.md that says to run the tests with python3 -m",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 2121,
+    "cache_read_input_tokens": 40434,
+    "output_tokens": 395,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 2121,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 82,
+      "cache_read_input_tokens": 14132,
+      "cache_creation_input_tokens": 352,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 352
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00102664,
+   "turns": 3,
+   "seconds": 6.0,
+   "session_id": "d1a9c708-b116-4d93-83cf-40f40864fac3"
+  },
+  {
+   "prompt": "What value does warehouse_capacity() in inventory.py return? Reply with just the",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 28196,
+    "cache_read_input_tokens": 80474,
+    "output_tokens": 510,
+    "output_tokens_details": {
+     "thinking_tokens": 61
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 28196,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 40120,
+      "cache_creation_input_tokens": 439,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 439
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.006699740000000001,
+   "turns": 4,
+   "seconds": 7.6,
+   "session_id": "0e531797-6ea9-4cc5-83e3-54471b7466b1"
+  },
+  {
+   "prompt": "How many data rows does orders.csv have, not counting the header? Reply with jus",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 1876,
+    "cache_read_input_tokens": 26298,
+    "output_tokens": 344,
+    "output_tokens_details": {
+     "thinking_tokens": 110
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 1876,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 113,
+      "cache_read_input_tokens": 13935,
+      "cache_creation_input_tokens": 304,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 304
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.0008105800000000001,
+   "turns": 2,
+   "seconds": 5.3,
+   "session_id": "52f5f2e1-5fdd-44b7-b021-27feb3c2ced8"
+  }
+ ]
+}

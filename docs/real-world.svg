@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 332" width="760" role="img" aria-labelledby="t d">
+
+<style>
+  .surface { fill: #fcfcfb; } .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .grid { stroke: #e4e3df; }
+  .s1 { fill: #eb6834; } .s2 { fill: #2a78d6; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; } .t1 { fill: #f0efec; } .t2 { fill: #c3c2b7; } .grid { stroke: #383835; }
+    .s1 { fill: #d95926; } .s2 { fill: #3987e5; }
+  }
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+</style>
+<title id="t">Where one real Claude Code session's cost went</title><desc id="d">The author's heaviest session: 1351 requests, average context 401k tokens per request.</desc>
+<rect class="surface" width="760" height="332" rx="8"/>
+<text class="t1" x="20" y="32" font-size="17" font-weight="600">Where one real Claude Code session's cost went</text>
+<text class="t2" x="20" y="54" font-size="13">The author's heaviest session: 1351 requests, average context 401k tokens per request.</text>
+<line class="grid" x1="230" y1="86" x2="230" y2="276" stroke-width="1"/>
+<text class="t1" x="218" y="105.0" font-size="13" text-anchor="end">Re-sent: the conversation</text>
+<g><title>share of cost: 50%</title><path class="s2" d="M230.0,92.0 h376.0 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-376.0 z"/></g>
+<text class="t1" x="616.0" y="105.0" font-size="12">50%</text>
+<text class="t1" x="218" y="145.0" font-size="13" text-anchor="end">Re-sent: tool results</text>
+<g><title>share of cost: 20%</title><path class="s2" d="M230.0,132.0 h144.0 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-144.0 z"/></g>
+<text class="t1" x="384.0" y="145.0" font-size="12">20%</text>
+<text class="t1" x="218" y="185.0" font-size="13" text-anchor="end">Re-sent: startup context</text>
+<g><title>share of cost: 6%</title><path class="s2" d="M230.0,172.0 h41.0 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-41.0 z"/></g>
+<text class="t1" x="281.0" y="185.0" font-size="12">6%</text>
+<text class="t1" x="218" y="225.0" font-size="13" text-anchor="end">Cache writes</text>
+<g><title>share of cost: 18%</title><path class="s2" d="M230.0,212.0 h134.7 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-134.7 z"/></g>
+<text class="t1" x="374.7" y="225.0" font-size="12">18%</text>
+<text class="t1" x="218" y="255.0" font-size="13" text-anchor="end">Claude's replies + thinking</text>
+<text class="t2" x="218" y="273.0" font-size="12" text-anchor="end">what terse-reply tools cut</text>
+<g><title>share of cost: 6%</title><path class="s2" d="M230.0,252.0 h39.6 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-39.6 z"/></g>
+<text class="t1" x="279.6" y="265.0" font-size="12">6%</text>
+<text class="t2" x="20" y="318" font-size="11">From /cut-context:audit on the author's own logs. Re-sent = context Claude re-reads from cache.</text>
+</svg>

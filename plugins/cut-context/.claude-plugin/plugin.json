@@ -1,0 +1,20 @@
+{
+  "name": "cut-context",
+  "description": "See what your Claude Code tokens are actually spent on, from your own local logs, and the fix for each leak. Read-only, no hooks, no network. Free, MIT.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Aditya Paul",
+    "url": "https://github.com/Paulie-Aditya"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "tokens",
+    "context",
+    "cost",
+    "usage-limits",
+    "audit"
+  ],
+  "homepage": "https://github.com/Paulie-Aditya/cut-context",
+  "repository": "https://github.com/Paulie-Aditya/cut-context"
+}

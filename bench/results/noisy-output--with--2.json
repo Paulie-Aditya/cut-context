@@ -1,0 +1,139 @@
+{
+ "scenario": "noisy-output",
+ "arm": "with",
+ "rep": 2,
+ "model": "haiku",
+ "dir": "/private/var/folders/l0/wd9q93rn1mxgkmls2h2f9l080000gn/T/cutctx-noisy-output-with-2-x2hof4bh",
+ "finished": "2026-10-19T07:57:09",
+ "steps": [
+  {
+   "prompt": "Run `python3 -m unittest discover -v` and fix the failing test by fixing the cod",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 6687,
+    "cache_read_input_tokens": 54923,
+    "output_tokens": 1040,
+    "output_tokens_details": {
+     "thinking_tokens": 135
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 6687,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 163,
+      "cache_read_input_tokens": 15781,
+      "cache_creation_input_tokens": 703,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 703
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00240743,
+   "turns": 5,
+   "seconds": 10.3,
+   "session_id": "d2ef7716-bc0e-4164-901b-b8b9fe4ee808"
+  },
+  {
+   "prompt": "What value does max_batch_size() in inventory.py return? Reply with just the num",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 665,
+    "cache_read_input_tokens": 33202,
+    "output_tokens": 212,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 665,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 16718,
+      "cache_creation_input_tokens": 431,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 431
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00297885,
+   "turns": 2,
+   "seconds": 3.8,
+   "session_id": "d2ef7716-bc0e-4164-901b-b8b9fe4ee808"
+  },
+  {
+   "prompt": "How many data rows does orders.csv have, not counting the header? Reply with jus",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 377,
+    "cache_read_input_tokens": 34373,
+    "output_tokens": 238,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 377,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 17224,
+      "cache_creation_input_tokens": 302,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 302
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00351738,
+   "turns": 2,
+   "seconds": 4.1,
+   "session_id": "d2ef7716-bc0e-4164-901b-b8b9fe4ee808"
+  }
+ ]
+}

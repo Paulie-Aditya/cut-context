@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 372" width="760" role="img" aria-labelledby="t d">
+
+<style>
+  .surface { fill: #fcfcfb; } .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; } .grid { stroke: #e4e3df; }
+  .s1 { fill: #eb6834; } .s2 { fill: #2a78d6; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; } .t1 { fill: #f0efec; } .t2 { fill: #c3c2b7; } .grid { stroke: #383835; }
+    .s1 { fill: #d95926; } .s2 { fill: #3987e5; }
+  }
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+</style>
+<title id="t">Cost of the same tasks, without and with the fix</title><desc id="d">Claude Code (haiku), mean of 5 runs each. Every task checked for pass/fail.</desc>
+<rect class="surface" width="760" height="372" rx="8"/>
+<text class="t1" x="20" y="32" font-size="17" font-weight="600">Cost of the same tasks, without and with the fix</text>
+<text class="t2" x="20" y="54" font-size="13">Claude Code (haiku), mean of 5 runs each. Every task checked for pass/fail.</text>
+<rect class="s1" x="20" y="66" width="12" height="12" rx="2"/>
+<text class="t2" x="38" y="76" font-size="12">without the fix</text>
+<rect class="s2" x="151" y="66" width="12" height="12" rx="2"/>
+<text class="t2" x="169" y="76" font-size="12">with the fix</text>
+<line class="grid" x1="230" y1="86" x2="230" y2="316" stroke-width="1"/>
+<text class="t1" x="218" y="105.0" font-size="13" text-anchor="end">/clear between tasks</text>
+<text class="t2" x="218" y="123.0" font-size="12" text-anchor="end">+17% cost</text>
+<g><title>without the fix: 0.96¢</title><path class="s1" d="M230.0,92.0 h178.6 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-178.6 z"/></g>
+<text class="t1" x="418.6" y="105.0" font-size="12">0.96¢</text>
+<g><title>with the fix: 1.13¢</title><path class="s2" d="M230.0,112.0 h210.5 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-210.5 z"/></g>
+<text class="t1" x="450.5" y="125.0" font-size="12">1.13¢</text>
+<text class="t1" x="218" y="165.0" font-size="13" text-anchor="end">/clear after the heavy task</text>
+<text class="t2" x="218" y="183.0" font-size="12" text-anchor="end">-10% cost</text>
+<g><title>without the fix: 2.00¢</title><path class="s1" d="M230.0,152.0 h376.0 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-376.0 z"/></g>
+<text class="t1" x="616.0" y="165.0" font-size="12">2.00¢</text>
+<g><title>with the fix: 1.80¢</title><path class="s2" d="M230.0,172.0 h337.6 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-337.6 z"/></g>
+<text class="t1" x="577.6" y="185.0" font-size="12">1.80¢</text>
+<text class="t1" x="218" y="225.0" font-size="13" text-anchor="end">CLAUDE.md: grep, then read ranges</text>
+<text class="t2" x="218" y="243.0" font-size="12" text-anchor="end">+3% cost</text>
+<g><title>without the fix: 0.26¢</title><path class="s1" d="M230.0,212.0 h44.9 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-44.9 z"/></g>
+<text class="t1" x="284.9" y="225.0" font-size="12">0.26¢</text>
+<g><title>with the fix: 0.26¢</title><path class="s2" d="M230.0,232.0 h46.1 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-46.1 z"/></g>
+<text class="t1" x="286.1" y="245.0" font-size="12">0.26¢</text>
+<text class="t1" x="218" y="285.0" font-size="13" text-anchor="end">hook: keep the last 40 lines</text>
+<text class="t2" x="218" y="303.0" font-size="12" text-anchor="end">-21% cost</text>
+<g><title>without the fix: 0.50¢</title><path class="s1" d="M230.0,272.0 h90.6 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-90.6 z"/></g>
+<text class="t1" x="330.6" y="285.0" font-size="12">0.50¢</text>
+<g><title>with the fix: 0.39¢</title><path class="s2" d="M230.0,292.0 h70.3 a4.0,4.0 0 0 1 4.0,4.0 v10.0 a4.0,4.0 0 0 1 -4.0,4.0 h-70.3 z"/></g>
+<text class="t1" x="310.3" y="305.0" font-size="12">0.39¢</text>
+<text class="t2" x="20" y="358" font-size="11">US cents per run, from Claude Code's own cost report. Tiny because Haiku is cheap; the ratios are the point.</text>
+</svg>

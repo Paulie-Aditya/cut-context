@@ -1,0 +1,139 @@
+{
+ "scenario": "big-file",
+ "arm": "with",
+ "rep": 1,
+ "model": "haiku",
+ "dir": "/private/var/folders/l0/wd9q93rn1mxgkmls2h2f9l080000gn/T/cutctx-big-file-with-1-sjwcl0rg",
+ "finished": "2026-10-19T07:56:31",
+ "steps": [
+  {
+   "prompt": "What value does warehouse_capacity() in inventory.py return? Reply with just the",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 5107,
+    "cache_read_input_tokens": 38367,
+    "output_tokens": 341,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 5107,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 4,
+      "cache_read_input_tokens": 14412,
+      "cache_creation_input_tokens": 492,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 492
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00157617,
+   "turns": 3,
+   "seconds": 5.6,
+   "session_id": "008e88f8-3f6b-485e-af03-61bd2158525d"
+  },
+  {
+   "prompt": "What value does late_fee_rate() in inventory.py return? Reply with just the numb",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 396,
+    "cache_read_input_tokens": 29884,
+    "output_tokens": 214,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 396,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 5,
+      "cache_read_input_tokens": 14980,
+      "cache_creation_input_tokens": 320,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 320
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00206161,
+   "turns": 2,
+   "seconds": 3.9,
+   "session_id": "008e88f8-3f6b-485e-af03-61bd2158525d"
+  },
+  {
+   "prompt": "What value does max_batch_size() in inventory.py return? Reply with just the num",
+   "passed": true,
+   "error": false,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 389,
+    "cache_read_input_tokens": 30676,
+    "output_tokens": 211,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 389,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+     {
+      "input_tokens": 2,
+      "output_tokens": 3,
+      "cache_read_input_tokens": 15376,
+      "cache_creation_input_tokens": 313,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 313
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+   },
+   "cost_usd": 0.00255207,
+   "turns": 2,
+   "seconds": 4.0,
+   "session_id": "008e88f8-3f6b-485e-af03-61bd2158525d"
+  }
+ ]
+}

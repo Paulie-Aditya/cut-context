@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cut-context",
+  "description": "Measure where your Claude Code tokens go, then cut the leaks.",
+  "owner": {
+    "name": "Aditya Paul",
+    "url": "https://github.com/Paulie-Aditya"
+  },
+  "plugins": [
+    {
+      "name": "cut-context",
+      "description": "Token audit for Claude Code: ranks what keeps getting re-sent (conversation, tool results, startup context, cache misses) from your local logs, with a fix for each. Read-only, no network.",
+      "source": "./plugins/cut-context",
+      "category": "productivity",
+      "homepage": "https://github.com/Paulie-Aditya/cut-context"
+    }
+  ]
+}
