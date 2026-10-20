@@ -2,6 +2,8 @@
 
 **Find out what your Claude Code tokens are actually spent on, and cut the part that's waste.**
 
+[![Listed on Agensi](https://img.shields.io/badge/Agensi-listed-2a78d6)](https://www.agensi.io/skills/cut-context)
+
 A free, read-only plugin for [Claude Code](https://claude.com/claude-code). Run one
 command and it reads your own session logs and tells you, in plain numbers, where
 your usage goes and which single change would save the most.
@@ -130,6 +132,11 @@ Then, in any project you've used Claude Code in:
 /cut-context:audit --days 30     # a longer window
 /cut-context:audit --all         # every project
 ```
+
+**Prefer a plain skill to a plugin?** Install it from
+[Agensi](https://www.agensi.io/skills/cut-context) (free), or build it yourself with
+`python3 package_skill.py`, unzip `dist/cut-context.zip` into `~/.claude/skills/`, and
+run `/cut-context`.
 
 No Claude needed? Run it directly: `python3 plugins/cut-context/skills/audit/audit.py --help`
 

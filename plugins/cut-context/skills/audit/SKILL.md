@@ -16,7 +16,21 @@ argument-hint: "[--days N] [--all] [--session FILE] [--top N]"
 Show the user what their tokens are actually spent on, from their own logs, and
 the one or two fixes worth making. Measure; don't claim.
 
-What the user typed after `/cut-context:audit`: `$ARGUMENTS`
+What the user typed after the command: `$ARGUMENTS`
+
+## What this skill touches
+
+It works in Claude Code only, because it reads Claude Code's own session logs,
+which live outside the project folder. That is the whole point of the audit.
+
+- **Reads:** `~/.claude/projects/` (session logs, including `subagents/`), and
+  `CLAUDE.md` files to measure their size.
+- **Writes:** one small JSON snapshot per run to `~/.claude/cut-context/audits/`
+  (`--no-save` turns it off), plus backups in `~/.claude/cut-context/backups/`
+  only when the user asks for a fix to be applied (Step 3).
+- **Never:** makes network calls, runs other programs, installs anything, or
+  deletes files. `audit.py` uses the Python standard library only and is plain,
+  readable code.
 
 ## Step 1: run the audit
 
